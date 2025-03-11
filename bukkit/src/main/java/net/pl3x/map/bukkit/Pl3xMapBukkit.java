@@ -28,6 +28,7 @@ import net.pl3x.map.bukkit.command.BukkitCommandManager;
 import net.pl3x.map.bukkit.util.SchedulerUtil;
 import net.pl3x.map.core.Pl3xMap;
 import net.pl3x.map.core.event.server.ServerLoadedEvent;
+import net.pl3x.map.core.log.Logger;
 import net.pl3x.map.core.network.Network;
 import net.pl3x.map.core.player.Player;
 import net.pl3x.map.core.player.PlayerListener;

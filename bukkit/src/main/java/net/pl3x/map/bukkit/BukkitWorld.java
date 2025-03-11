@@ -59,6 +59,11 @@ public class BukkitWorld extends World {
         );
         this.level = level;
 
+        Logger.warn(
+                "Creating Pl3x World for %s with level name %s, current registered: %s"
+                        .formatted(name, Pl3xMap.api().getWorldRegistry().entrySet().stream().map(Map.Entry::getKey).reduce((a, b) -> a + "," + b).orElse(""))
+        );
+
         if (!isEnabled()) {
             return;
         }

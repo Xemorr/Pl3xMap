@@ -26,6 +26,7 @@ package net.pl3x.map.core.registry;
 import java.util.function.Supplier;
 import net.pl3x.map.core.Pl3xMap;
 import net.pl3x.map.core.event.world.WorldUnloadedEvent;
+import net.pl3x.map.core.log.Logger;
 import net.pl3x.map.core.world.World;
 import org.jspecify.annotations.NullMarked;
 import org.jspecify.annotations.Nullable;
